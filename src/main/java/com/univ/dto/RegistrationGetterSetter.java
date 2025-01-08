@@ -2,7 +2,15 @@ package com.univ.dto;
 
 public class RegistrationGetterSetter {
 int mobileNo,year;
-String name,email,enrollmentNo,password,coordinatorId;  //confirmPassword,
+String name,email,enrollmentNo,password,coordinatorId,status;  //confirmPassword,
+public String getStatus() {
+	return status;
+}
+
+public void setStatus(String status) {
+	this.status = status;
+}
+
 public String getCoordinatorId() {
 	return coordinatorId;
 }
@@ -89,6 +97,17 @@ public RegistrationGetterSetter() {
 //}
 
 
+public RegistrationGetterSetter(String name, String email,String enrollmentNo, int mobileNo, int year,  String password, String status) {
+	super();
+	this.name = name;
+	this.email = email;
+	this.enrollmentNo = enrollmentNo;
+	this.mobileNo = mobileNo;
+	this.year= year;
+	this.password = password;
+	this.status= status;
+	
+}
 public RegistrationGetterSetter(String name, String email,String enrollmentNo, int mobileNo, int year,  String password) {
 	super();
 	this.name = name;
@@ -98,6 +117,17 @@ public RegistrationGetterSetter(String name, String email,String enrollmentNo, i
 	this.year= year;
 	this.password = password;
 	
+	
+}
+
+public RegistrationGetterSetter(String name,String coordinatorId, int mobileNo, String email, String password, String status) {
+	super();
+	this.name = name;
+	this.coordinatorId = coordinatorId;
+	this.mobileNo = mobileNo;
+	this.email = email;
+	this.password = password;
+	this.status= status;
 }
 public RegistrationGetterSetter(String name,String coordinatorId, int mobileNo, String email, String password) {
 	super();
@@ -106,6 +136,7 @@ public RegistrationGetterSetter(String name,String coordinatorId, int mobileNo, 
 	this.mobileNo = mobileNo;
 	this.email = email;
 	this.password = password;
+	
 }
 
 }

@@ -58,7 +58,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+    <!--   <a class="btn-getstarted" href="#services">Get Started</a>    -->
 
     </div>
   </header>
@@ -78,7 +78,7 @@
               
               Prepare with the best resources, mock tests, and expert guidance.</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="#services" class="btn-get-started">Get Started</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -122,9 +122,10 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
     <!-- /Stats Section -->
 
     <!-- Services Section -->
+      <section id="services">
     <div class="container section-title" data-aos="fade-up">
       <h2>Services</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <p>Start Your Journey to Success.</p>
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -163,7 +164,9 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
       </div>
     </div>
   </div>
-</div><!-- /Services Section -->
+</div>
+</section>
+<!-- /Services Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -171,7 +174,7 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Features</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Elevate Your Skills Today!</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -191,24 +194,32 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-basket flex-shrink-0"></i>
               <div>
-                <h4>Resume and Profile Builder</h4>
-                <p>Create a professional resume with our easy-to-use builder. Highlight your skills, experiences, and achievements to stand out to potential employers.</p>
+                <h4>Personalized Dashboard</h4>
+                <p> A user-friendly interface that adapts to individual users, providing easy access to their profile, quizzes, and placement preparation resources.</p>
               </div>
             </div><!-- End Features Item-->
 
             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-broadcast flex-shrink-0"></i>
               <div>
-                <h4>Mock Interviews with Expert Feedback</h4>
-                <p>Prepare for real-world interviews with our mock interview sessions. Receive valuable feedback from industry experts to refine your communication and problem-solving skills.</p>
+                <h4>Year-Wise Resource Management</h4>
+                <p>Students can view and access information, quizzes, and study materials relevant to their current academic year, ensuring targeted preparation.</p>
               </div>
             </div><!-- End Features Item-->
 
             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-camera-reels flex-shrink-0"></i>
               <div>
-                <h4>Company and Placement Insights</h4>
-                <p>Stay informed about the latest hiring trends, company profiles, and placement statistics. Gain insider knowledge to better understand what top companies are looking for in candidates.</p>
+                <h4>Interactive Quiz Management</h4>
+                <p>Teachers can upload quizzes in multiple formats (PDFs, Google Forms) or create live quizzes with unique IDs, allowing dynamic and engaging assessments.</p>
+              </div>
+            </div>
+            
+             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-camera-reels flex-shrink-0"></i>
+              <div>
+                <h4>Admin and Teacher Modules</h4>
+                <p>Admins oversee user approvals and management, while teachers can upload information, assignments, or announcements directly to students' dashboards.</p>
               </div>
             </div><!-- End Features Item-->
 
@@ -227,7 +238,7 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>A Team of Experienced Professionals.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -248,7 +259,7 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
               <div class="member-info">
                 <h4>Abhijeet Singh Rathore</h4>
                 <span>Chief Executive Officer</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                <p></p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -266,8 +277,8 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
               </div>
               <div class="member-info">
                 <h4>Akshat Shukla</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <span>Chief Executive Officer</span>
+                <p></p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -285,8 +296,8 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
               </div>
               <div class="member-info">
                 <h4>Dhruv Patidar</h4>
-                <span>CTO</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <span>Chief Executive Officer</span>
+                <p></p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -304,8 +315,8 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
               </div>
               <div class="member-info">
                 <h4>Adesh Kothari</h4>
-                <span>Accountant</span>
-                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+                <span>Chief Executive Officer</span>
+                <p></p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -322,7 +333,7 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Contact Us for Inquiries, Feedback, and Partnerships</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -336,8 +347,9 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <p> INDIA </p>
+                  <p>VijayNagar - 452010</p>
+                  <p>Indore, Madhya Pradesh</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -345,20 +357,29 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <p>+91 84354 18813</p>
+                  <p>+91 93025 99076</p>
+                  <p>+91 88788 49588</p>
+                  <p>+91 93408 72904</p>
                 </div>
               </div><!-- End Info Item -->
+               </div>
+               </div>
 
-              <div class="col-md-6">
+             <!-- End Info Item -->
+
+      
+          <div class="col-lg-6">
+          <div class="row gy-4">
+           <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
+                  <p>placify@gmail.com</p>
+                  
                 </div>
               </div><!-- End Info Item -->
-
+         
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="500">
                   <i class="bi bi-clock"></i>
@@ -366,13 +387,11 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
                   <p>Monday - Friday</p>
                   <p>9:00AM - 05:00PM</p>
                 </div>
-              </div><!-- End Info Item -->
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
+              </div>
+              </div>
+              </div>
+              
+        <!-- 
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
@@ -402,11 +421,11 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
-
+          </div>
+         -->
         </div>
 
-      </div>
+      
 
     </section><!-- /Contact Section -->
 
@@ -418,9 +437,9 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.jsp" class="logo d-flex align-items-center">
-            <span class="sitename">Techie</span>
+            <span class="sitename">Placify</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p> A Placement Preparation Platform </p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -442,35 +461,41 @@ Our mission is simple: to equip you with the knowledge and skills you need to su
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
+          <!-- 
+            <li><a href="#">User Management</a></li>
+            <li><a href="#">Progress Tracking</a></li>
+            <li><a href="#">Feedback  </a></li>
+            <li><a href="#">Mock Test </a></li>
+            <li><a href="#">Course Resources </a></li>
+             -->
+             <p> User Management </p>
+              <p> Progress Tracking </p> 
+               <p> Feedback </p> 
+                <p> Mock Test </p> 
+                 <p> Course Resources </p>  
+         
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+           <p> INDIA </p>
+                  <p>VijayNagar - 452010</p>
+                  <p>Indore, Madhya Pradesh</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+97 84354 18813</span></p>
+          <p><strong>Email:</strong> <span>placify@gmail.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Techie</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Placify</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <!--   Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>      -->
       </div>
     </div>
 

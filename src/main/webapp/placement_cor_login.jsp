@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<% String nm=(String)session.getAttribute("name");
+if(nm!="" && nm!=null){
+	session.invalidate();
+}%>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -22,7 +26,7 @@
                         
 						<div class="input-group">
 							<i class='bx bx-mail-send'></i>
-							<input type="text" name="teacherId" placeholder="Teacher ID">
+							<input type="text" name="coordinatorId" placeholder="Teacher ID">
 						</div>
                         <div class="input-group">
 							<i class='bx bx-mail-send'></i>
@@ -65,6 +69,10 @@
 			<div class="col align-items-center flex-col sign-in">
 				<div class="form-wrapper align-items-center">
 					<div class="form sign-in">
+					   <!-- Display login message if present -->
+                       <% if (request.getAttribute("loginMessage") != null) { %>
+                    <p style="color: red;"><%= request.getAttribute("loginMessage") %></p>
+                <% } %>
 					<form action="Login_coordinator" method="post">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
@@ -80,7 +88,7 @@
 						</form>
 						<p>
 							<b>
-								Forgot password?
+							<a href="forget_password_coordinator.jsp"	>Forgot password? </a>
 							</b>
 						</p>
 						<p>

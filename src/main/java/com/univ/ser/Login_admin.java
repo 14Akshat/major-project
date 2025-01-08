@@ -1,6 +1,8 @@
 package com.univ.ser;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -43,6 +45,7 @@ public class Login_admin extends HttpServlet {
 		AdminRegDAO areg = new AdminRegDAO();
 		boolean b = areg.checkDetails(adminId,password);
 		if(b) {
+		
 			response.sendRedirect("admin_home.jsp");
 		}
 		else {

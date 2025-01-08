@@ -6,7 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import javax.servlet.http.HttpSession;
 import com.univ.dao.StudentRegDAO;
 
 /**
@@ -40,23 +40,31 @@ public class Login_student extends HttpServlet {
 		//doGet(request, response);
 		String enrollmentNo=request.getParameter("enrollmentNo");
 		String password=request.getParameter("password");
-		//HttpSession hs=null;
+		
 		StudentRegDAO cdao=new StudentRegDAO();
-		boolean b=cdao.checkDetails(enrollmentNo,password);
-		if(b) {
-//			hs=request.getSession(false);
-//			if(hs!=null) {
-//				hs.invalidate();
-//				hs=null;
-//			}
-//			hs=request.getSession(true);
-//			hs.setAttribute("unm",unm);
-		    
-			response.sendRedirect("student_home.jsp");
-		}
-		else {
-			response.sendRedirect("student_login.jsp");
-		}
+
+		String status = cdao.getStudentStatus(enrollmentNo, password);
+		
+        if ("APPROVED".equalsIgnoreCase(status)) {
+        	String name = cdao.getStudentName(enrollmentNo);
+        	int studentYear = cdao.getStudentYear(enrollmentNo);
+    		HttpSession session = request.getSession(true);
+    		session.setAttribute("enrollmentNo", enrollmentNo);
+    		session.setAttribute("name",name );
+    		session.setAttribute("studentYear", studentYear);
+            response.sendRedirect("student_home_page.jsp");
+        } else if ("PENDING".equalsIgnoreCase(status))  {
+            request.setAttribute("loginMessage", "Verification in progress. You cannot log in at this time.");
+            request.getRequestDispatcher("student_login.jsp").forward(request, response);
+        }
+        else if("REJECTED".equalsIgnoreCase(status)) {
+        	request.setAttribute("loginMessage", "Your account was rejected. Please contact support");
+            request.getRequestDispatcher("student_login.jsp").forward(request, response);
+        }
+        	else {
+            request.setAttribute("loginMessage", "Invalid credentials. Please try again.");
+            request.getRequestDispatcher("student_login.jsp").forward(request, response);
+        }
 	}
 	}
 
